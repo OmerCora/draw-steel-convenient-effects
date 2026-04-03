@@ -1,0 +1,99 @@
+#convenientEffects .ce-inline-control {
+  color: var(--color-text-dark-5);
+}
+#convenientEffects .ce-inline-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+#convenientEffects .ce-inline-control:hover {
+  background-color: var(--color-cool-3);
+}
+#convenientEffects .ce-inline-control[aria-pressed=true] {
+  color: var(--button-text-color);
+  background-color: var(--color-cool-3);
+}
+#convenientEffects .integration-icon {
+  margin-right: 12px;
+  flex: none;
+  align-self: center;
+}
+
+#convenient-effect-config fieldset {
+  margin-bottom: 1rem;
+}
+#convenient-effect-config fieldset:last-child {
+  margin-bottom: 0;
+}
+#convenient-effect-config .hint {
+  margin-bottom: 16px;
+}
+
+#visual-active-effects .effect-item {
+  position: relative;
+}
+
+/* --- Stack badge --- */
+#visual-active-effects .dsce-stack-badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+  border-radius: 8px;
+  background: rgba(200, 60, 60, 0.9);
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  pointer-events: none;
+  z-index: 2;
+  text-shadow: 0 0 2px black;
+}
+
+/* --- Book icon --- */
+#visual-active-effects .dsce-book-icon {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 9px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+#visual-active-effects .effect-item:hover .dsce-book-icon {
+  opacity: 1;
+}
+
+#visual-active-effects .dsce-book-icon:hover {
+  background: rgba(60, 60, 200, 0.9);
+}
+
+/* --- Chat description card --- */
+.dsce-description-card h3 {
+  margin: 0 0 0.25rem;
+  border-bottom: 1px solid var(--color-border-light-2);
+  padding-bottom: 0.25rem;
+}
+}
+
+#visual-active-effects .effect-item .ce-book-btn:hover {
+  background: rgba(56, 152, 136, 0.95);
+}
