@@ -74,6 +74,8 @@
             "ConvenientEffectIdHint": "This is the Convenient effect ID and can be used for finding, adding, or removing an effect.",
             "TemporaryLabel": "Temporary",
             "TemporaryHint": "If checked, this effect will always be labeled as a temporary effect, even if it doesn't have a duration or status.",
+            "StackableLabel": "Stackable",
+            "StackableHint": "If checked, this effect can be stacked. Left-click the VAE icon to add a stack, right-click to remove one.",
             "ViewableLabel": "Viewable",
             "ViewableHint": "If checked, this effect will always be shown in the application.",
             "DynamicLabel": "Dynamic",

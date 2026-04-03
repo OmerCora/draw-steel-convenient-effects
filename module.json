@@ -9,8 +9,7 @@
         "maximum": 13
     },
     "esmodules": [
-        "dfreds-convenient-effects.mjs",
-        "vae-integration.mjs"
+        "dfreds-convenient-effects.mjs"
     ],
     "scripts": [],
     "styles": [
